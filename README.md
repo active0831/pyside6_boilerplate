@@ -14,4 +14,4 @@ PySide6 기반 파이썬 GUI 앱 개발을 빠르게 시작할 수 있는 프레
  - main.bat
  - main_window_example.py
  - components.basic.py
-![image](https://github.com/active0831/pyside6_generic_v23.01/assets/91447903/4230a4d3-e26f-42d8-a8c7-8748a8aafdb2)
+![image](https://github.com/active0831/pyside6_generic_v23.01/assets/91447903/a177d048-6c65-487e-8e99-4881f49af6aa)

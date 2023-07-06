@@ -1,5 +1,8 @@
 # pyside6_generic_v23.02
 PySide6 기반 파이썬 GUI 앱 개발을 빠르게 시작할 수 있는 프레임워크 입니다.
+
+![example](https://github.com/active0831/pyside6_generic_v23.01/assets/91447903/3e7ba597-0182-411f-b351-7d442a9397af)
+
 - 업데이트 기록: 
  - components.basic 에 LineEditComponent 추가 ( 2023.7.5 )
  - components.image 에 ImageComponent, ImageListComponent 추가 ( 2023.7.6 )
@@ -11,14 +14,6 @@ PySide6 기반 파이썬 GUI 앱 개발을 빠르게 시작할 수 있는 프레
 프레임워크 파일
  - lib.state.py
  - lib.task.py
-
-기타 ( 필수 아님 )
- - main.bat
- - main_window_example.py
- - components.basic.py
-
-![example](https://github.com/active0831/pyside6_generic_v23.01/assets/91447903/3e7ba597-0182-411f-b351-7d442a9397af)
-
 
 # Mainwindow
  - 먼저 전체 프로그램에서 공유할 state 를 등록하고, 메인윈도우의 레이아웃 상 각 위치에 별도로 작성한 위젯을 배치한다. 이때, setSideWidget 이라는 함수를 만들어 dockWidget 을 배치하는 코드를 한 줄로 줄이면 보다 가독성을 높일 수 있다. 마지막으로 창 크기 등 디자인 요소들을 설정한다.

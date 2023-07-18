@@ -1,4 +1,4 @@
-# pyside6_boilerplate_v23.06
+# pyside6_boilerplate_v23.07
 PySide6 기반 파이썬 GUI 앱 개발을 빠르게 시작할 수 있는 템플릿 입니다.
 
 ![example](https://github.com/active0831/pyside6_generic_v23.01/assets/91447903/3e7ba597-0182-411f-b351-7d442a9397af)
@@ -15,22 +15,22 @@ PySide6 기반 파이썬 GUI 앱 개발을 빠르게 시작할 수 있는 템플
 ### 메인 파일
  - bin/main.py
 
-### 추가 모듈
+### 모듈 작성
  - bin/modules/
 
-### 추가 컴포넌트
+### 컴포넌트, 함수 추가
  - bin/components/
+ - bin/helper/
 
-## 프레임워크 파일 (필요 시 편집)
- - bin/lib/state.py
- - bin/lib/task.py
- - bin/lib/widget.py
-
-## 예제 파일
- - examples/
- - 의존 라이브러리는 개별적으로 설치가 필요할 수 있음
+## 기본 라이브러리 ( 편집할 시, 본 템플릿 버전 업데이트 필요 )
+ - bin/lib/core  (프레임워크 파일)
+ - bin/lib/component ( 기본 컴포넌트 )
+ - bin/lib/widget ( 기본 위젯 컴포넌트 )
+ - bin/lib/helper ( 기본 헬퍼 함수 )
 
 # 업데이트 내역
+  - v23.07 (2023.7.18.)      
+      - 기본 라이브러리와 사용자 추가 라이브러리를 분리
   - v23.06 (2023.7.17.)      
       - State 및 위젯을 모듈별로 관리하도록 함
   - v23.05 (2023.7.15.)

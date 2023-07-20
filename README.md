@@ -1,11 +1,12 @@
-# pyside6_boilerplate_v23.07
+# pyside6_boilerplate_v23.08
 PySide6 기반 파이썬 GUI 앱 개발을 빠르게 시작할 수 있는 템플릿 입니다.
 
 ![example](https://github.com/active0831/pyside6_generic_v23.01/assets/91447903/3e7ba597-0182-411f-b351-7d442a9397af)
 
 # 설치 
- - 설치 및 실행 : setup.bat
- - 설치 후 실행만 : run.bat
+ - 설치 후 실행 : setup.bat
+ - 코드(source) 수정 후 실행 : commit_run.bat
+ - 실행만 : run.bat
  - 가상환경에 python 모듈 추가 설치 : pip_install.bat 편집 후 실행
 
 # 파일 구성
@@ -27,9 +28,15 @@ PySide6 기반 파이썬 GUI 앱 개발을 빠르게 시작할 수 있는 템플
  - bin/lib/component ( 기본 컴포넌트 )
  - bin/lib/widget ( 기본 위젯 컴포넌트 )
  - bin/lib/helper ( 기본 헬퍼 함수 )
+ - bin/lib/addon ( 선택적으로 활용 가능한 기능 )
 
 # 업데이트 내역
-  - v23.07 (2023.7.18.)      
+  - v23.08 (2023.7.20.)      
+      - 'auth' : 서버 로그인 및 REST API 활용 Addon
+      - Task 'repeat' : 일정 시간 간격으로 반복 실행되는 비동기 작업 (기존 'set' 상위 호환)
+      - 'settings.py' : 자동 로그인 여부 등 기본값 설정
+      - 각 모듈과 애드온에서 Gui 요소를 따로 분리하여 편집
+  - v23.07 (2023.7.18.)
       - 기본 라이브러리와 사용자 추가 라이브러리를 분리
   - v23.06 (2023.7.17.)      
       - State 및 위젯을 모듈별로 관리하도록 함
